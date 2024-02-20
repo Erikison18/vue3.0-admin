@@ -1,10 +1,33 @@
 import { createApp } from 'vue'
+import '@/styles/index.scss'
+import ElementPlus from 'element-plus'
+import router from './router'
+import store from './store'
+import permission from './permission'
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-expect-error
+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
+import 'element-plus/dist/index.css'
+//svg插件需要配置代码
+import 'virtual:svg-icons-register'
+import globalComponent from '@/components'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
-const fn = () => {
-  console.log(5555)
+// console.log(import.meta.env)
+
+const app = createApp(App)
+
+app.use(globalComponent)
+for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
+  app.component(key, component)
 }
+app.use(store)
+app.use(router)
 
-fn()
+import './permission'
+app.use(ElementPlus, {
+  locale: zhCn,
+})
+app.mount('#app')

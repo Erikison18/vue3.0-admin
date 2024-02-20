@@ -1,25 +1,9 @@
-<script setup lang="ts">
-console.log(999)
-let aa = 11
-const str = '885pp'
-console.log(888)
-</script>
-
 <template>
-  <div class="box">
-    box
-    <h1>111</h1>
+  <div>
+    <router-view></router-view>
   </div>
 </template>
 
-<style scoped lang="scss">
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: beige;
+<script setup lang="ts"></script>
 
-  h1 {
-    color: aquamarine;
-  }
-}
-</style>
+<style scoped lang="scss"></style>

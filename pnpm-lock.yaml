@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.6.2
     version: 1.6.2
   element-plus:
-    specifier: ^2.4.3
-    version: 2.4.3(vue@3.3.11)
+    specifier: ^2.3.3
+    version: 2.3.3(vue@3.3.11)
   nprogress:
     specifier: ^0.2.0
     version: 0.2.0
@@ -2486,8 +2486,8 @@ packages:
     resolution: {integrity: sha512-ihiCP7PJmjoGNuLpl7TjNA8pCQWu09vGyjlPYw1Rqww4gvNuCcmvl+44G+2QyJ6S2K4o+wbTS++Xz0YN8Q9ERw==, tarball: https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.609.tgz}
     dev: true
 
-  /element-plus@2.4.3(vue@3.3.11):
-    resolution: {integrity: sha512-b3q26j+lM4SBqiyzw8HybybGnP2pk4MWgrnzzzYW5qKQUgV6EG1Zg7nMCfgCVccI8tNvZoTiUHb2mFaiB9qT8w==, tarball: https://registry.npmmirror.com/element-plus/-/element-plus-2.4.3.tgz}
+  /element-plus@2.3.3(vue@3.3.11):
+    resolution: {integrity: sha512-Zy61OXrG6b4FF3h29A9ZOUkaEQXjCuFwNa7DlpB3Vo+42Tw5zBbHe5a4BY7i56TVJG5xTbS9UQyA726J91pDqg==, tarball: https://registry.npmmirror.com/element-plus/-/element-plus-2.3.3.tgz}
     peerDependencies:
       vue: ^3.2.0
     dependencies:

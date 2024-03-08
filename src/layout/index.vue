@@ -81,7 +81,7 @@ export default {
     top: 0px;
     left: $base-menu-width;
     // z-index: 100;
-    background-color: #fff;
+    // background-color: #fff;
     transition: all 0.3s;
     &.fold {
       width: calc(100vw - $base-menu-min-width);
@@ -98,7 +98,7 @@ export default {
     padding: 20px;
     overflow: auto;
     // z-index: 100;
-    background-color: #fff;
+    // background-color: #fff;
     transition: all 0.3s;
 
     &.fold {

@@ -62,9 +62,9 @@ const useUserStore = defineStore('User', {
           result.data.routes,
         )
         //菜单需要的数据整理完毕
-        this.menuRoutes = [...constantRoute, ...userAsyncRoute, anyRoute];
+        this.menuRoutes = [...constantRoute, ...userAsyncRoute, anyRoute]
         //目前路由器管理的只有常量路由:用户计算完毕异步路由、任意路由动态追加
-        [...userAsyncRoute, anyRoute].forEach((route: any) => {
+        ;[...userAsyncRoute, anyRoute].forEach((route: any) => {
           router.addRoute(route)
         })
         return 'ok'

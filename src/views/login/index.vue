@@ -70,7 +70,7 @@ const login = async () => {
       message: '欢迎回来',
       title: `HI,${getTime()}好`,
     })
-    let redirect = $route.query.redirect
+    let redirect: any = $route.query.redirect
 
     $router.push({ path: redirect || '/' })
   } catch (error) {

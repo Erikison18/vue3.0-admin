@@ -6,7 +6,7 @@
 import { ref, onMounted } from 'vue'
 import * as echarts from 'echarts'
 //引入中国地图的JSON数据
-import chinaJSON from './china.json'
+import * as chinaJSON from './china.json'
 //获取DOM元素
 let map = ref()
 //注册中国地图

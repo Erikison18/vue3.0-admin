@@ -3,7 +3,6 @@ import '@/styles/index.scss'
 import ElementPlus from 'element-plus'
 import router from './router'
 import store from './store'
-import permission from './permission'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 //@ts-expect-error
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'

@@ -5,6 +5,7 @@
         type="primary"
         size="default"
         icon="Plus"
+        v-has="`btn.Trademark.add`"
         @click="addTrademark"
       >
         添加品牌

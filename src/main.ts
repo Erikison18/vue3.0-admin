@@ -29,6 +29,9 @@ app.use(store)
 app.use(router)
 
 import './permission'
+//引入自定义指令文件
+import { isHasButton } from '@/directive/has'
+isHasButton(app)
 app.use(ElementPlus, {
   locale: zhCn,
 })
